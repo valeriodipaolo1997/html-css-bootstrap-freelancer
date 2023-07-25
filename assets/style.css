@@ -7,3 +7,37 @@ hr {
 .star {
     width: 100%;
 }
+
+.blue_star {
+    border: 1px solid black;
+}
+
+.jumbotron {
+    background-color: #1abc9c;
+}
+
+
+.about {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.info {
+    background-color:  #3a546d;
+    color: white;
+}
+
+.copy {
+    background-color: #333333;
+}
+
+.circle {
+    width: 45px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.marked {
+    color:  #1abc9c;
+}
