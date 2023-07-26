@@ -1,3 +1,12 @@
+.my_nav {
+    background-color: #3a546d;
+    color: white;
+}
+
+.my_toggler {
+    filter: invert(1);
+}
+
 hr {
     width: 12%;
     border: 1px solid white;

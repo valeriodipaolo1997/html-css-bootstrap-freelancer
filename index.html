@@ -17,11 +17,37 @@
     </head>
     <body>
 
-        <header class="bg-secondary">
-            <h2>smart bootstrap</h2>
-        </header>
+        <header>
+            <nav class="navbar navbar-expand-sm my_nav py-3">
+              <div class="container g-5">
+                <a class="navbar-brand text-white fw-semibold" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav" aria-controls="navbarNav"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon my_toggler"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link text-light" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">CONTACT</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </nav>
+      
+          </header>
+        <!--header-->
 
         <main>
+
             <section class="jumbotron">
                 <div class="container text-center text-white py-5">
                     <img class="pb-2" width="250px"
@@ -129,17 +155,18 @@
             <!--section about-->
 
             <section class="my-5">
-                <div class="container">
-                    <h2>contact me</h2>
+                    <h2 class="text-center pb-3">CONTACT ME</h2>
                     <div
                         class="star d-flex justify-content-center align-items-center gap-2">
-                        <hr>
+                        <hr class="blue_star">
                         <i class="fa-solid fa-2x fa-star"></i>
-                        <hr>
+                        <hr class="blue_star">
                     </div>
-                </section>
-                <!--section contact-->
-            </main>
+            </section>
+            <!--section contact-->
+        </main>
+        <!--main-->
+
 
             <footer>
                 <div class="info">
@@ -188,10 +215,11 @@
                     <p>Copyright &copy; Your Website 2019</p>
                 </div>
             </footer>
+            <!--footer-->
 
             <script
                 src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
                 crossorigin="anonymous"></script>
-        </body>
-    </html>
+    </body>
+</html>
