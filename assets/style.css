@@ -32,6 +32,12 @@ hr {
     color: white;
 }
 
+.contacts .btn {
+    background-color:  #1abc9c;
+    color: white;
+    font-size: 20px;
+}
+
 .info {
     background-color:  #3a546d;
     color: white;
